@@ -1,6 +1,4 @@
-
-
-import myPhoto from '../assets/image.png'; 
+import myProfilePhoto from '../assets/image.jpeg'; 
 
 const Hero = () => {
   return (
@@ -8,7 +6,7 @@ const Hero = () => {
     
       <div className="mb-8">
         <img 
-          src={myPhoto} 
+          src= {myProfilePhoto} 
           alt="Ferdus Ahmed" 
           className="w-40 h-40 md:w-56 md:h-56 rounded-full border-4 border-blue-500 object-cover shadow-lg shadow-blue-500/20"
         />
@@ -21,12 +19,11 @@ const Hero = () => {
         exceptional digital experiences. Currently, I am a Learner of this field.
       </p>
       
-      <button className="mt-8 px-8 py-3 bg-blue-600 hover:bg-blue-500 rounded-full font-medium transition-all">
-        Check out my work
-      </button>
+
 
     </section>
   );
 };
 
 export default Hero;
+
